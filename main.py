@@ -19,7 +19,7 @@ from forms import CreatePostForm, CommentForm
 from flask_gravatar import Gravatar
 
 app = Flask(__name__)
-secret_key = os.environ['secret_key']
+secret_key = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 app.config['SECRET_KEY'] = secret_key
 ckeditor = CKEditor(app)
 Bootstrap(app)
