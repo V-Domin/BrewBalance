@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, flash, request, abort, jsonify
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
+import email_validator
 
 import os
 from datetime import date
